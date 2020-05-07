@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Paaji+2&display=swap" rel="stylesheet">
+    <title>JS. Оператор выбора</title>
+</head>
+<body>
+    <div class="form">
+        <span>Задание 1</span>
+        <input type="number" id="n11">
+        <input type="number" id="n12">
+        <div class="button">
+            <button onclick="resul1()">Ответ</button>
+         </div>
+        <hr>
+        <span id="result_multi_1">Результат</span>
+    </div>
+</body>
+<body>
+    <div class="form">
+        <span>Задание 2</span>
+        <input type="number" id="n21">
+        <input type="number" id="n22">
+        <input type="number" id="n23">
+        <div class="button">
+            <button onclick="resul2()">Ответ</button>
+         </div>
+        <hr>
+        <span id="result_multi_2">Результат</span>
+    </div>
+</body>
+<body>
+    <div class="form">
+        <span>Задание 3</span>
+        <input type="number" id="x">
+        <input type="number" id="y">
+        <div class="button">
+            <button onclick="resul3()">Ответ</button>
+         </div>
+        <hr>
+        <span id="result_multi_3">Результат</span>
+    </div>
+</body>
+<body>
+    <div class="form">
+        <span>Задание 4</span>
+        <input type="number" id="k">
+        <input type="number" id="l">
+        <div class="button">
+            <button onclick="resul4()">Ответ</button>
+         </div>
+        <hr>
+        <span>Результат:</span>
+        <span id="result_multi_4_1">k</span>
+        <span id="result_multi_4_2">l</span>
+    </div>
+</body>
+<body>
+    <div class="form">
+        <span>Задание 5</span>
+        <input type="number" id="p">
+        <div class="button">
+            <button onclick="resul5()">Ответ</button>
+         </div>
+        <hr>
+        <span id="result_multi_5">Результат:</span>
+    </div>
+</body>
+<body>
+    <div class="form">
+        <span>Задание 6 и 7</span>
+        <input type="number" id="p1">
+        <div class="button">
+            <button onclick="resul6()">Ответ</button>
+         </div>
+        <hr>
+        <span id="result_multi_6">Результат:</span>
+    </div>
+</body>
+<body>
+    <div class="form">
+        <span>Задание 8</span>
+        <input type="number" id="a">
+        <div class="button">
+            <button onclick="resul8()">Ответ</button>
+         </div>
+        <hr>
+        <span id="result_multi_8">Результат:</span>
+    </div>
+</body>
+<body>
+    <div class="form">
+        <span>Задание 9</span>
+        <input type="number" id="hour" placeholder="hour">
+        <input type="number" id="minute" placeholder="minute">
+        <div class="button">
+            <button onclick="resul9()">Ответ</button>
+         </div>
+        <hr>
+        <span id="result_multi_9">Результат:</span>
+    </div>
+</body>
+<body>
+    <div class="form">
+        <span>Задание 10</span>
+        <input type="number" id="num">
+        <div class="button">
+            <button onclick="resul10()">Ответ</button>
+         </div>
+        <hr>
+        <span id="result_multi_10">Результат:</span>
+    </div>
+</body>
+<body>
+    <div class="form">
+        <span>Задание 11</span>
+        <input type="number" id="x_1" placeholder="X">
+        <input type="number" id="y_1" placeholder="Y">
+        <input type="number" id="z_1" placeholder="Z">
+        <input type="number" id="a_1" placeholder="A">
+        <div class="button">
+            <button onclick="resul11()">Ответ</button>
+         </div>
+        <hr>
+        <span id="result_multi_11">Результат</span>
+    </div>
+</body>
+<body>
+    <div class="form">
+        <span>Задание 12</span>
+        <input type="number" id="x_2" placeholder="X">
+        <input type="number" id="y_2" placeholder="Y">
+        <div class="button">
+            <button onclick="resul12()">Ответ</button>
+         </div>
+        <hr>
+        <span>Z=</span>
+        <span id="result_multi_12">Результат</span>
+    </div>
+</body>
+<body>
+    <div class="form">
+        <span>Задание 13</span>
+        <input type="number" id="x_3" placeholder="X">
+        <input type="number" id="y_3" placeholder="Y">
+        <div class="button">
+            <button onclick="resul13()">Ответ</button>
+         </div>
+        <hr>
+        <span>Результат:</span>
+        <span id="result_multi_13_1">X</span>
+        <span id="result_multi_13_2">Y</span>
+    </div>
+</body>
+<body>
+    <div class="form">
+        <span>Задание 14</span>
+        <input type="number" id="x_4" placeholder="X">
+        <input type="number" id="y_4" placeholder="Y">
+        <div class="button">
+            <button onclick="resul14()">Ответ</button>
+         </div>
+        <hr>
+        <span>Z=</span>
+        <span id="result_multi_14">Результат</span>
+    </div>
+</body>
+<body>
+    <div class="form">
+        <span>Задание 15</span>
+        <input type="number" id="p_15" placeholder="P">
+        <input type="number" id="t_15" placeholder="T">
+        <div class="button">
+            <button onclick="resul15()">Ответ</button>
+         </div>
+        <hr>
+        <span>Результат:</span>
+        <span id="result_multi_15_1">единица</span>
+        <span id="result_multi_15_2">остаток</span>
+    </div>
+</body>
+</html>

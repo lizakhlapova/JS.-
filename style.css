@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    font-family: sans-serif;
+}
+
+.form {
+    width: 75%;
+    margin: 16px auto;
+    padding: 16px;
+    border: 1px solid rgb(57, 56, 153);
+}
+
+.form > span {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 40%;
+    font-family: 'Baloo Paaji 2', cursive;
+}
+
+.form > input, .form > .button> button {
+    display: block;
+    padding: 8px;
+    border: 1px solid rgb(29, 27, 160);
+    font-size: 1.5em;
+}
+
+.form > input,
+.form > span {
+    margin-bottom: 16px;
+}
+
+.form > input {
+    width: 100%;
+}
+
+.form > .button > button {
+    cursor: pointer;
+    width: 36%;
+    margin: auto;
+    padding: 16 px;
+    font-size: 1.5em;;
+    font-weight: bold;
+    color: rgb(17, 23, 56);
+}
